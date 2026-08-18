@@ -1,16 +1,20 @@
-Flight Reservation Desktop Application
-A simple and user-friendly Desktop Application built with Python, Tkinter, and SQLite to manage flight reservations.
+# ✈️ Flight Reservation Desktop Application
 
-Features
-Book Flight: Add new passenger and flight details.
+A simple and user-friendly Desktop Application built with **Python**, **Tkinter**, and **SQLite** to manage flight reservations.
 
-View Reservations: Display all booked flights in a structured table.
+---
 
-Update Reservation: Modify existing flight and passenger information.
+## 🌟 Features
+- **Book Flight:** Add new passenger and flight details seamlessly.
+- **View Reservations:** Display all booked flights in a clean, structured table.
+- **Update Reservation:** Modify existing flight and passenger information easily.
+- **Delete Reservation:** Remove flight bookings with safety confirmation prompts.
 
-Delete Reservation: Remove flight bookings with confirmation.
+---
 
-Project Structure
+## 📁 Project Structure
+
+```text
 flight_reservation_app/
 ├── main.py              # Main application entry point
 ├── database.py          # SQLite database setup and query functions
@@ -22,7 +26,7 @@ flight_reservation_app/
 ├── requirements.txt     # Required Python packages
 └── README.md            # Project documentation
 
-Technologies Used
+🛠️ Technologies Used
 Python 3
 
 Tkinter (Graphical User Interface)
@@ -31,7 +35,7 @@ SQLite3 (Database Management)
 
 PyInstaller (Standalone Executable Compilation)
 
-How to Run the Project
+🚀 How to Run the Project
 Clone or download this repository.
 
 Open your terminal and navigate to the project directory:
@@ -40,7 +44,7 @@ cd flight_reservation_app
 Run the application:
 python main.py
 
-Generating Executable (.exe)
+📦 Generating Executable (.exe)
 To create a standalone Windows executable:
 
 Install PyInstaller:
@@ -49,4 +53,4 @@ pip install pyinstaller
 Build the .exe file:
 pyinstaller --onefile main.py
 
-The executable file will be generated in the dist folder.
+The generated .exe file will be located inside the dist/ folder.
